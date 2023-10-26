@@ -125,7 +125,7 @@ class CompatibilityWithAutocad():
             videoram_req=dict_req['videoram']
 
             ws.cell(row=last_row, column=1).value = self.hostname
-            ws.cell(row=last_row, column=2).value = self.hostname
+            ws.cell(row=last_row, column=2).value = self.username
             ws.cell(row=last_row, column=3).value = self.computer_info
             ws.cell(row=last_row, column=4).value = autocad
             ws.cell(row=last_row, column=5).value = self.cpu_name
@@ -176,7 +176,7 @@ class CompatibilityWithAutocad():
         ram_for_lesson=self.SOLID_EDGE['ram2']
         gpu_req=self.SOLID_EDGE['videoram']
         ws.cell(row=last_row, column=1).value = self.hostname
-        ws.cell(row=last_row, column=2).value = self.hostname
+        ws.cell(row=last_row, column=2).value = self.username
         ws.cell(row=last_row, column=3).value = self.computer_info
         ws.cell(row=last_row, column=4).value = solid_edge
         ws.cell(row=last_row, column=5).value = self.cpu_name
