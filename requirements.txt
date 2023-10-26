@@ -1,0 +1,5 @@
+wmi
+psutil
+openpyxl
+winapps
+GPUtil
